@@ -1,6 +1,7 @@
 import "./App.css";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Header from "./components/Header";
+import HeroImage from "./components/HeroImage"
 
 function App() {
   const defaultTheme = createTheme({
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={defaultTheme}>
         <Header />
+        <HeroImage />
       </ThemeProvider>
     </div>
   );
