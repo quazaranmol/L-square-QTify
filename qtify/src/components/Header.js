@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import logo from "../Logo.svg";
+import logo from "../logo.svg";
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
 
